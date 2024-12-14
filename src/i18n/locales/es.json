@@ -6,7 +6,7 @@
   "hero": {
     "title": "Tu guía nutricional personal",
     "subtitle": "Obtén tu programa personalizado y comienza tu viaje hacia una vida más saludable y feliz.",
-    "users": "Millones de usuarios han alcanzado sus objetivos usando Foodvisor",
+    "users": "Millones de usuarios han alcanzado sus objetivos usando Ubod",
     "cta": "Comenzar",
     "appStoreButton": {
       "line1": "Descarga en",
@@ -24,7 +24,10 @@
       "email": "Correo",
       "subject": "Asunto",
       "message": "Mensaje",
-      "submit": "Enviar mensaje"
+      "submit": "Enviar mensaje",
+      "sending": "Enviando...",
+      "success":"¡Tu mensaje ha sido enviado con éxito! Nos pondremos en contacto contigo pronto.",
+      "error": "Hubo un error al enviar tu mensaje. Por favor, inténtalo"
     }
   },
   "ratings": {

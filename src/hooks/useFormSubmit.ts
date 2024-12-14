@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import { useState } from 'react';
 
 interface FormData {
@@ -52,7 +53,7 @@ const useFormSubmit = () => {
       if (data.success) {
         setSubmitStatus({
           type: 'success',
-          message: 'Your message has been sent successfully! We\'ll get back to you soon.',
+          message: t('support.form.success'),
         });
         setFormData({
           name: '',
@@ -66,7 +67,7 @@ const useFormSubmit = () => {
     } catch (error) {
       setSubmitStatus({
         type: 'error',
-        message: 'Something went wrong. Please try again later.',
+        message: t('support.form.error'),
       });
     } finally {
       setIsSubmitting(false);

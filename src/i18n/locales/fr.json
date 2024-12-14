@@ -24,7 +24,10 @@
       "email": "Email",
       "subject": "Sujet",
       "message": "Message",
-      "submit": "Envoyer"
+      "submit": "Envoyer",
+      "sending": "Envoi...",
+      "success": "Votre message a été envoyé avec succès! Nous vous contacterons bientôt.",
+      "error": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer"
     }
   },
   "ratings": {
