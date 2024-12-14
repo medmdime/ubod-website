@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "home": "Home",
+    "support": "Support"
+  },
+  "hero": {
+    "title": "Your personal nutrition guide",
+    "subtitle": "Get your personalized program and start your journey to a healthier, happier you.",
+    "users": "Millions of users have reached their goals using Foodvisor",
+    "cta": "Start Your Journey",
+    "appStoreButton": {
+      "line1": "Download on the",
+      "line2": "App Store"
+    },
+    "googlePlayButton": {
+      "line1": "Get it on",
+      "line2": "Google Play"
+    }
+    
+  },
+  "support": {
+    "title": "Get in Touch",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "sending": "Sending..."
+    }
+  },
+  "ratings": {
+    "on": "on",
+    "ratings": "ratings"
+  }
+}

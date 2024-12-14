@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "support": "Soporte"
+  },
+  "hero": {
+    "title": "Tu guía nutricional personal",
+    "subtitle": "Obtén tu programa personalizado y comienza tu viaje hacia una vida más saludable y feliz.",
+    "users": "Millones de usuarios han alcanzado sus objetivos usando Foodvisor",
+    "cta": "Comenzar",
+    "appStoreButton": {
+      "line1": "Descarga en",
+      "line2": "App Store"
+    },
+    "googlePlayButton": {
+      "line1": "Obténlo en",
+      "line2": "Google Play"
+    }
+  },
+  "support": {
+    "title": "Contáctanos",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "submit": "Enviar mensaje"
+    }
+  },
+  "ratings": {
+    "on": "en",
+    "ratings": "valoraciones"
+  }
+}

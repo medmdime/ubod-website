@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "support": "Support"
+  },
+  "hero": {
+    "title": "Votre guide nutritionnel personnel",
+    "subtitle": "Obtenez votre programme personnalisé et commencez votre voyage vers une vie plus saine et plus heureuse.",
+    "users": "Des millions d'utilisateurs ont atteint leurs objectifs avec Foodvisor",
+    "cta": "Commencer",
+    "appStoreButton": {
+      "line1": "Téléchargez sur",
+      "line2": "l'App Store"
+    },
+    "googlePlayButton": {
+      "line1": "Obtenez-le sur",
+      "line2": "Google Play"
+    }
+  },
+  "support": {
+    "title": "Contactez-nous",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "submit": "Envoyer"
+    }
+  },
+  "ratings": {
+    "on": "sur",
+    "ratings": "avis"
+  }
+}
