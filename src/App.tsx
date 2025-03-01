@@ -11,14 +11,16 @@ function App() {
   return (
     <I18nextProvider i18n={i18n}>
       <Router>
-        <Navbar />
-        <main className="flex-grow h-lvh">
-          {/* This ensures content pushes footer down */}
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/support" element={<Support />} />
-          </Routes>
-        </main>
+        <div>
+          <Navbar />
+          <main className="min-h-[81vh]">
+            {/* This ensures content pushes footer down */}
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/support" element={<Support />} />
+            </Routes>
+          </main>
+        </div>
         <Footer />
       </Router>
     </I18nextProvider>
