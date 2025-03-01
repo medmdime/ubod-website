@@ -16,7 +16,6 @@
       "line1": "Get it on",
       "line2": "Google Play"
     }
-
   },
   "support": {
     "title": "Get in Touch",
@@ -29,11 +28,19 @@
       "sending": "Sending...",
       "success": "Your message has been sent successfully! We'll get back to you soon.",
       "error": "There was an error sending your message. Please try again."
-
     }
   },
   "ratings": {
     "on": "on",
     "ratings": "ratings"
+  },
+  "footer": {
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "facebook": "Facebook",
+    "suggestions": "Suggestions",
+    "rights": "All rights reserved.",
+    "suggestionText": "Have a suggestion? Let us know on our",
+    "feedbackPlatform": "feedback platform"
   }
 }

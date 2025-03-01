@@ -6,14 +6,14 @@
   "hero": {
     "title": "Tu guía nutricional personal",
     "subtitle": "Obtén tu programa personalizado y comienza tu viaje hacia una vida más saludable y feliz.",
-    "users": "Millones de usuarios han alcanzado sus objetivos usando Ubod",
-    "cta": "Comenzar",
+    "users": "Millones de usuarios han alcanzado sus objetivos con Ubod",
+    "cta": "Comienza Tu Viaje",
     "appStoreButton": {
-      "line1": "Descarga en",
+      "line1": "Descargar en",
       "line2": "App Store"
     },
     "googlePlayButton": {
-      "line1": "Obténlo en",
+      "line1": "Disponible en",
       "line2": "Google Play"
     }
   },
@@ -21,17 +21,26 @@
     "title": "Contáctanos",
     "form": {
       "name": "Nombre",
-      "email": "Correo",
+      "email": "Correo electrónico",
       "subject": "Asunto",
       "message": "Mensaje",
-      "submit": "Enviar mensaje",
+      "submit": "Enviar Mensaje",
       "sending": "Enviando...",
-      "success":"¡Tu mensaje ha sido enviado con éxito! Nos pondremos en contacto contigo pronto.",
-      "error": "Hubo un error al enviar tu mensaje. Por favor, inténtalo"
+      "success": "¡Tu mensaje ha sido enviado con éxito! Te responderemos pronto.",
+      "error": "Hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo."
     }
   },
   "ratings": {
     "on": "en",
     "ratings": "valoraciones"
+  },
+  "footer": {
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "facebook": "Facebook",
+    "suggestions": "Sugerencias",
+    "rights": "Todos los derechos reservados.",
+    "suggestionText": "¿Tienes una sugerencia? Háznoslo saber en nuestra",
+    "feedbackPlatform": "plataforma de feedback"
   }
 }
