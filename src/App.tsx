@@ -6,6 +6,7 @@ import Support from "./pages/Support";
 import { I18nextProvider } from "react-i18next";
 import i18n from "./i18n";
 import Footer from "./components/Footer";
+import Privacy from "./pages/Privacy";
 
 function App() {
   return (
@@ -13,11 +14,12 @@ function App() {
       <Router>
         <div>
           <Navbar />
-          <main className="min-h-[81vh]">
+          <main className="min-h-[100vh]">
             {/* This ensures content pushes footer down */}
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/support" element={<Support />} />
+              <Route path="/privacyPolicy" element={<Privacy />} />
             </Routes>
           </main>
         </div>

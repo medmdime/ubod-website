@@ -98,9 +98,9 @@ const Footer = () => {
           </div>
 
           <div className="mt-8 text-center text-sm text-darkBrown">
-            <p>
+            <a href="/privacyPolicy" className="hover:underline">
               © {currentYear} Ubod. {t("footer.rights", "All rights reserved.")}
-            </p>
+            </a>
             <p className="mt-2">
               {t(
                 "footer.suggestionText",
