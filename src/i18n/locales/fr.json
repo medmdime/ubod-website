@@ -41,6 +41,8 @@
     "suggestions": "Suggestions",
     "rights": "Tous droits réservés.",
     "suggestionText": "Vous avez une suggestion ? Faites-le nous savoir sur notre",
-    "feedbackPlatform": "plateforme de feedback"
+    "feedbackPlatform": "plateforme de feedback",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions d'Utilisation"
   }
 }

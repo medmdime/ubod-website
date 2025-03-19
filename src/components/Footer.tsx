@@ -98,8 +98,22 @@ const Footer = () => {
           </div>
 
           <div className="mt-8 text-center text-sm text-darkBrown">
-            <a href="/privacyPolicy" className="hover:underline">
+            <a href="/privacy-policy" className="hover:underline">
               © {currentYear} Ubod. {t("footer.rights", "All rights reserved.")}
+            </a>
+            <a
+              href="/privacy-policy"
+              className="hover:underline text-darkGreen"
+            >
+              {" "}
+              {t("footer.privacyPolicy", "All rights reserved. ")}
+            </a>
+            <text>{" - "}</text>
+            <a
+              href="/term-of-service"
+              className="hover:underline text-darkGreen"
+            >
+              {t("footer.termsOfService", "All rights reserved. ")}
             </a>
             <p className="mt-2">
               {t(

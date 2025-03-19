@@ -7,6 +7,7 @@ import { I18nextProvider } from "react-i18next";
 import i18n from "./i18n";
 import Footer from "./components/Footer";
 import Privacy from "./pages/Privacy";
+import Terms from "./pages/TermOfUse";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/support" element={<Support />} />
-              <Route path="/privacyPolicy" element={<Privacy />} />
+              <Route path="/privacy-policy" element={<Privacy />} />
+              <Route path="/term-of-service" element={<Terms />} />
             </Routes>
           </main>
         </div>
