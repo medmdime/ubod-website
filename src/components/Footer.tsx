@@ -102,7 +102,7 @@ const Footer = () => {
               © {currentYear} Ubod. {t("footer.rights", "All rights reserved.")}
             </a>
             <a
-              href="/privacy-policy"
+              href="/privacyPolicy.html"
               className="hover:underline text-darkGreen"
             >
               {" "}
@@ -110,7 +110,7 @@ const Footer = () => {
             </a>
             <text>{" - "}</text>
             <a
-              href="/term-of-service"
+              href="/termService.html"
               className="hover:underline text-darkGreen"
             >
               {t("footer.termsOfService", "All rights reserved. ")}

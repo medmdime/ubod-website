@@ -91,8 +91,7 @@ export function Terms() {
         </li>
         <li>
           <strong>Account Deletion:</strong> You may delete your account through
-          the app or website settings. [PROVIDE SPECIFIC INSTRUCTIONS IF
-          NECESSARY].
+          the app or website settings.
         </li>
       </ul>
 
