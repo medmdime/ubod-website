@@ -1,7 +1,6 @@
 // components/Footer.jsx
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Instagram, Facebook, MessageSquare } from "lucide-react";
 
 const Footer = () => {
   const { t } = useTranslation();

@@ -1,7 +1,21 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Home, HeadphonesIcon, Menu, X, Globe } from "lucide-react";
+import {
+  Home,
+  HeadphonesIcon,
+  Menu,
+  X,
+  Globe,
+  User,
+  CreditCard,
+} from "lucide-react";
 import { useTranslation } from "react-i18next";
+import {
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  UserButton,
+} from "@clerk/clerk-react";
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
@@ -85,6 +99,21 @@ const Navbar = () => {
                 <HeadphonesIcon size={18} />
                 <span>{t("nav.support")}</span>
               </NavLink>
+              <SignedIn>
+                <NavLink
+                  to="/pricing"
+                  className={({ isActive }) =>
+                    `flex items-center space-x-1 px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                      isActive
+                        ? "text-darkGreen"
+                        : "text-darkBrown hover:text-darkGreen hover:bg-lightGreen/10"
+                    }`
+                  }
+                >
+                  <CreditCard size={18} />
+                  <span>{t("nav.pricing")}</span>
+                </NavLink>
+              </SignedIn>
 
               {/* Language Selector */}
               <div className="relative">
@@ -111,6 +140,12 @@ const Navbar = () => {
                   </div>
                 )}
               </div>
+              <SignedOut>
+                <SignInButton mode="modal" i18nIsDynamicList={true} />
+              </SignedOut>
+              <SignedIn>
+                <UserButton />
+              </SignedIn>
             </div>
 
             {/* Mobile menu button */}
@@ -125,7 +160,6 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mobile menu */}
         <div className={`md:hidden ${isOpen ? "block" : "hidden"}`}>
           <div className="px-2 pt-2 pb-3 space-y-1">
             <NavLink
@@ -160,6 +194,40 @@ const Navbar = () => {
                 <span>{t("nav.support")}</span>
               </span>
             </NavLink>
+            <SignedIn>
+              <NavLink
+                to="/user"
+                className={({ isActive }) =>
+                  `block px-3 py-2 rounded-md text-base font-medium ${
+                    isActive
+                      ? "text-darkGreen bg-lightGreen/20"
+                      : "text-darkBrown hover:text-darkGreen hover:bg-lightGreen/10"
+                  }`
+                }
+                onClick={() => setIsOpen(false)}
+              >
+                <span className="flex items-center space-x-2">
+                  <User size={18} />
+                  <span>{t("nav.profile")}</span>
+                </span>
+              </NavLink>
+              <NavLink
+                to="/pricing"
+                className={({ isActive }) =>
+                  `block px-3 py-2 rounded-md text-base font-medium ${
+                    isActive
+                      ? "text-darkGreen bg-lightGreen/20"
+                      : "text-darkBrown hover:text-darkGreen hover:bg-lightGreen/10"
+                  }`
+                }
+                onClick={() => setIsOpen(false)}
+              >
+                <span className="flex items-center space-x-2">
+                  <CreditCard size={18} />
+                  <span>{t("nav.pricing")}</span>
+                </span>
+              </NavLink>
+            </SignedIn>
 
             {/* Mobile Language Selector */}
             <div className="px-3 py-2">
@@ -178,6 +246,14 @@ const Navbar = () => {
                   </button>
                 ))}
               </div>
+            </div>
+            <div className="px-3 py-2">
+              <SignedOut>
+                <SignInButton mode="modal" i18nIsDynamicList={true} />
+              </SignedOut>
+              <SignedIn>
+                <UserButton i18nIsDynamicList={true} />
+              </SignedIn>
             </div>
           </div>
         </div>

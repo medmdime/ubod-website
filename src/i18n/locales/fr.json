@@ -1,13 +1,16 @@
 {
   "nav": {
     "home": "Accueil",
-    "support": "Support"
+    "support": "Support",
+    "profile": "Profil",
+    "pricing": "Tarifs"
   },
   "hero": {
     "title": "Votre guide nutritionnel personnel",
     "subtitle": "Obtenez votre programme personnalisé et commencez votre parcours vers une vie plus saine et plus heureuse.",
     "users": "Des millions d'utilisateurs ont atteint leurs objectifs avec Ubod",
     "cta": "Commencer Votre Parcours",
+    "pricing": "Voir les tarifs",
     "appStoreButton": {
       "line1": "Télécharger sur",
       "line2": "App Store"
@@ -44,5 +47,9 @@
     "feedbackPlatform": "plateforme de feedback",
     "privacyPolicy": "Politique de Confidentialité",
     "termsOfService": "Conditions d'Utilisation"
+  },
+  "pricing": {
+    "title": "Tarifs",
+    "selectPlan": "Sélectionner un plan"
   }
 }

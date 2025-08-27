@@ -1,13 +1,16 @@
 {
   "nav": {
     "home": "Home",
-    "support": "Support"
+    "support": "Support",
+    "profile": "Profile",
+    "pricing": "Pricing"
   },
   "hero": {
     "title": "Your personal nutrition guide",
     "subtitle": "Get your personalized program and start your journey to a healthier, happier you.",
     "users": "Millions of users have reached their goals using Ubod",
     "cta": "Start Your Journey",
+    "pricing": "View Pricing",
     "appStoreButton": {
       "line1": "Download on the",
       "line2": "App Store"
@@ -44,5 +47,9 @@
     "feedbackPlatform": "feedback platform",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "selectPlan": "Select Plan"
   }
 }

@@ -7,9 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generate-api": "openapi --input http://localhost:8080/v3/api-docs --output ./src/api-client"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.44.0",
+    "@clerk/localizations": "^3.23.1",
+    "@revenuecat/purchases-js": "^1.13.0",
+    "axios": "^1.11.0",
     "i18next": "^23.10.1",
     "i18next-browser-languagedetector": "^7.2.0",
     "lucide-react": "^0.344.0",
