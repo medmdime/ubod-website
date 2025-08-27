@@ -1,7 +1,6 @@
 import React from "react";
 import HeroText from "../components/HeroText";
 import PhoneFrame from "../components/PhoneFrame";
-import Rating from "../components/Rating";
 import logo from "../assets/Tableau Blanc Canva.webp";
 
 const Home = () => {

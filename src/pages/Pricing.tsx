@@ -7,6 +7,7 @@ import {
   useAuth,
 } from "@clerk/clerk-react";
 import { useTranslation } from "react-i18next";
+const VITE_REVENUECAT_API_KEY = import.meta.env.VITE_REVENUECAT_API_KEY;
 
 const PricingPage = () => {
   const { t } = useTranslation();
@@ -17,7 +18,7 @@ const PricingPage = () => {
     const getOfferings = async () => {
       try {
         await Purchases.configure({
-          apiKey: "rcb_PpeVYsytuSWTdbWimBDUYexRZQAG",
+          apiKey: VITE_REVENUECAT_API_KEY,
           appUserId: userId!,
         });
 
