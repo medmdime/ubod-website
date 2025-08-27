@@ -12,7 +12,7 @@ const VITE_REVENUECAT_API_KEY = import.meta.env.VITE_REVENUECAT_API_KEY;
 const PricingPage = () => {
   const { t } = useTranslation();
   const [offering, setOffering] = useState<Package[] | null>(null);
-  const { userId } = useAuth();
+  const { userId, isLoaded } = useAuth();
 
   useEffect(() => {
     const getOfferings = async () => {
@@ -34,7 +34,7 @@ const PricingPage = () => {
       }
     };
     getOfferings();
-  }, []);
+  }, [isLoaded]);
 
   const purchase = async (pkg: any) => {
     const { customerInfo } = await Purchases.getSharedInstance().purchase({
