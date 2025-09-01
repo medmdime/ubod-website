@@ -46,7 +46,8 @@
     "suggestionText": "Vous avez une suggestion ? Faites-le nous savoir sur notre",
     "feedbackPlatform": "plateforme de feedback",
     "privacyPolicy": "Politique de Confidentialité",
-    "termsOfService": "Conditions d'Utilisation"
+    "termsOfService": "Conditions d'Utilisation",
+    "refundPolicy": "Politique de Remboursement"
   },
   "pricing": {
     "title": "Tarifs",

@@ -114,6 +114,13 @@ const Footer = () => {
             >
               {t("footer.termsOfService", "All rights reserved. ")}
             </a>
+            <text>{" - "}</text>
+            <a
+              href="https://ubod.app/RefundPolicy.html"
+              className="hover:underline text-darkGreen"
+            >
+              {t("footer.refundPolicy", "All rights reserved. ")}
+            </a>
             <p className="mt-2">
               {t(
                 "footer.suggestionText",
